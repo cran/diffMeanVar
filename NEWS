@@ -1,0 +1,22 @@
+# v0.0.6 created on Oct. 5, 2017
+#  (1) Thanks to CRAN Manager Swetlana Herbrandt, we fixed a few more bugs in DESCRIPTION file:
+#      (a) replace 'Detecting Gene Probes Having' by 'Detecting Gene Probes with'
+#      (b) write package names and software names in single quotes (e.g., 'missMethyl')
+#      (c) do not capitalize 'Groups' in Description
+#
+# v0.0.5 created on Oct. 4, 2017
+#  (1) Thanks to CRAN Manager Swetlana Herbrandt, we fixed a few bugs in DESCRIPTION file:
+#       (a) repeat the title in the Description
+#       (b) no references in Description
+# v0.0.4 created on Oct. 4, 2017
+#  (1) re-check if any thing is wrong.
+
+# v0.0.3 created on Oct. 3, 2017
+#  (1) replace 'Genomic' by 'Gene' in the title of DESCRIPTION file
+#
+# v0.0.2 created on Oct. 3, 2017
+#  (1) fixed some typos in manual files
+#
+# v0.0.1 created on Oct. 2, 2017
+#  (1) create R package diffMeanVar
+

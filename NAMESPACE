@@ -1,0 +1,53 @@
+export(
+  AWvarTest,
+  BFtest,
+  equalMeanTestWrapper,
+  equalVarTestWrapper,
+  FTest,
+  genSimData.tDistr,
+  iAWvar.BF,
+  iAWvar.Levene,
+  iAWvar.TrimMean,
+  jointKSTestWrapper,
+  jointLRTTestWrapper,
+  jointScoreTestsWrapper,
+  LeveneTest,
+  POTestWrapper,
+  scoreTestMean,
+  TrimMeanLeveneTest
+)
+
+import(Biobase)
+import(missMethyl)
+import(stats)
+
+importFrom(MASS,
+          ginv)
+
+importFrom(graphics,
+          hist,
+          legend,
+          lines,
+          plot,
+          title,
+          stripchart,
+          text,
+          boxplot,
+          abline)
+
+importFrom(grDevices,
+           pdf,
+           postscript,
+           png,
+           jpeg,
+           bmp,
+           tiff,
+           dev.off)
+
+importFrom(lawstat,
+          levene.test)
+
+importFrom(methylumi,
+          betas)
+
+
